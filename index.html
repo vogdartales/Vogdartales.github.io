@@ -7,6 +7,10 @@
         <meta name="keywords" content="VogdarTales">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript">
+            if (/Android|iPhone|iPad/i.test(navigator.userAgent)) {
+                document.getElementById("front").style.width = "";
+                document.getElementById("front").style.height = "auto";
+            }
             function openNav() {
                 document.getElementById("navbar").style.width = "250px";
             }

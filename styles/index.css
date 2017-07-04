@@ -7,9 +7,9 @@ body{
     background-color: #d9d9d9;
 }
 #front{
-    height: 25%;
-    display: block;
-    margin: auto;
+    width: 80%;
+	display: block;
+	margin: auto;
     border: 2px solid;
     border-color: #fff;
     border-radius: 7px;
@@ -17,7 +17,7 @@ body{
 #openbtn{
     position: fixed;
     font-size: 25;
-    top: 2.5%;
+    top: 1.5%;
     left: 1.5%;
 }
 #navbar {
